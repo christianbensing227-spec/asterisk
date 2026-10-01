@@ -5,7 +5,7 @@ int main() {
     while (x < 5) {
         int y = 0;
         while (y < 5) {
-            printf("* ");
+            printf("*");
             y++;
         }
 
