@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int n = 3; 
+    int z = 3; 
     int x = 1;
-    while (x <= n) {
+    while (x <= z) {
         int y = 1;
-        while (y <= n - x) {
+        while (y <= z - x) {
             printf(" ");
             y++;
         }
@@ -19,10 +19,10 @@ int main() {
     }
     
     
-    x = n - 1;
+    x = z - 1;
     while (x >= 1) {
         int y = 1;
-        while (y <= n - x) { 
+        while (y <= z - x) { 
             printf(" ");
             y++;
         }
